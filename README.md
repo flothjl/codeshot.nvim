@@ -10,10 +10,9 @@ A simple Neovim plugin to **turn your visually-selected code into a beautiful sc
 
 ## ✨ Features
 
-- Zero-config, works out of the box
 - Supports any code you can select in Neovim
-- Theme and font customizable via plugin options
-- Output automatically placed in your project directory
+- Tons of themes
+- Feel free to bring your own font!
 
 ---
 
