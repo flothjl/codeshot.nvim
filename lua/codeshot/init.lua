@@ -35,7 +35,7 @@ function M.screenshot_selection()
 	local font = M.options.font
 	local lang = vim.bo.filetype
 	local ts = os.date("%Y%m%d-%H%M%S")
-	local outfile = vim.fn.getcwd() .. "/codeshot-" .. ts .. "png"
+	local outfile = vim.fn.getcwd() .. "/codeshot-" .. ts .. ".png"
 
 	-- Get visual selection (charwise and linewise)
 	local start_pos = vim.fn.getpos("'<")
